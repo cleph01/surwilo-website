@@ -109,13 +109,13 @@ website:    http://www.themepunch.com
     letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0;
-    color: #333333 !important;
+    color: #333 !important;
     padding: 27px 15px;
     letter-spacing: 2.5px;
     z-index: 99999;
 }
 .navbar-brand span {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .navbar-nav {
     transition: all 0.2s ease-in-out;
@@ -195,7 +195,7 @@ website:    http://www.themepunch.com
     color: #ffffff;
 }
 .top-line ul.social-icons li a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 header.active .top-line {
     height: 0;
@@ -213,7 +213,7 @@ ul.drop-down {
     left: 0;
     visibility: hidden;
     padding: 10px 0;
-    border-top: 2px solid #a0ce4e;
+    border-top: 2px solid #aa4a44;
     opacity: 0;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -241,7 +241,7 @@ ul.drop-down li a {
     margin: 0;
 }
 ul.drop-down li a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .form-search {
     position: absolute;
@@ -292,7 +292,7 @@ ul.drop-down li a:hover {
     z-index: 2;
 }
 .form-search button i {
-    color: #a0ce4e;
+    color: #aa4a44;
     font-size: 16px;
 }
 .form-search.active {
@@ -360,7 +360,7 @@ p {
     letter-spacing: 2.5;
 }
 #home-section .tp-caption.finewide_medium_white span {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 #home-section .tp-caption.finewide_medium_white.center-align {
     text-align: center !important;
@@ -391,8 +391,8 @@ p {
 }
 #home-section .tp-bullets.simplebullets.round .bullet:hover,
 #home-section .tp-bullets.simplebullets.round .bullet.selected {
-    background: #a0ce4e;
-    border-color: #a0ce4e;
+    background: #aa4a44;
+    border-color: #aa4a44;
 }
 #home-section .slotholder:after {
     position: absolute;
@@ -407,7 +407,6 @@ p {
 .banner-section {
     padding: 40px 0;
     background: #aa4a44;
-    text-align: center;
 }
 .banner-section h2 {
     color: #333333;
@@ -419,6 +418,7 @@ p {
     font-size: 16px;
     font-weight: 400 !important;
     margin-bottom: 0;
+    text-align: center;
 }
 .banner-section a {
     display: inline-block;
@@ -427,7 +427,7 @@ p {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     padding: 12px 30px;
     color: #ffffff;
     background: transparent;
@@ -444,7 +444,7 @@ p {
 }
 .banner-section a:hover {
     background: #ffffff;
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .title-section {
     margin-bottom: 30px;
@@ -466,7 +466,7 @@ p {
     content: "";
     width: 40px;
     height: 2px;
-    background: #a0ce4e;
+    background: #aa4a44;
     bottom: -1px;
     left: 0;
 }
@@ -527,7 +527,7 @@ section.services-section
     .services-post
     .services-content
     a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .portfolio-section {
     padding: 60px 0;
@@ -577,7 +577,7 @@ section.services-section
 }
 .portfolio-section ul.filter li a:hover,
 .portfolio-section ul.filter li a.active {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .portfolio-section .project-post .project-gallery {
     position: relative;
@@ -633,7 +633,7 @@ section.services-section
     .inner-hover
     h2
     a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .portfolio-section
     .project-post
@@ -647,7 +647,7 @@ section.services-section
     left: 0;
     width: 22px;
     height: 1px;
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 .portfolio-section .project-post .project-gallery .hover-box .inner-hover span {
     display: inline-block;
@@ -700,7 +700,7 @@ section.services-section
     -o-transition: all 0.2s ease-in-out;
 }
 .owl-theme .owl-controls .owl-buttons div:hover {
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 .owl-theme .owl-controls .owl-buttons div.owl-prev {
     float: left;
@@ -738,7 +738,7 @@ section.services-section
     bottom: 0;
     left: 0;
     width: 30px;
-    background: #AA4A44#a0ce4e;
+    background: #AA4A44#aa4a44;
     height: 1px;
 }
 .tabs-section .about-us-box p {
@@ -765,7 +765,7 @@ section.services-section
     color: #ffffff;
 }
 .tabs-section .about-us-box .about-us-post a:hover {
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 .tabs-section .about-us-box .about-us-post h2 {
     color: #333333;
@@ -880,7 +880,7 @@ section.services-section
     color: #333333;
 }
 .news-section .news-post .news-content h2 a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .news-section .news-post .news-content > a {
     display: inline-block;
@@ -902,7 +902,7 @@ section.services-section
     margin-left: 12px;
 }
 .news-section .news-post .news-content > a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .quote-section {
     padding: 50px 0;
@@ -947,7 +947,7 @@ section.services-section
     left: 0;
     width: 30px;
     height: 1px;
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 .quote-section .quote-box form#contact-form {
     margin: 0;
@@ -971,7 +971,7 @@ section.services-section
 }
 .quote-section .quote-box form#contact-form input[type="text"]:focus,
 .quote-section .quote-box form#contact-form textarea:focus {
-    border: 1px solid #a0ce4e;
+    border: 1px solid #aa4a44;
 }
 .quote-section .quote-box form#contact-form textarea {
     height: 100px;
@@ -1144,7 +1144,7 @@ section.services-section
     margin-bottom: 0;
 }
 .page-banner-section ul.page-depth li a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .page-banner-section ul.page-depth li:before {
     content: "/";
@@ -1237,7 +1237,7 @@ section.services-section
 }
 .team-section .team-box .team-post .gallery-team ul.social-list li a:hover {
     color: #ffffff;
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 .team-section .team-box .team-post .team-content h2 {
     color: #333333;
@@ -1300,7 +1300,7 @@ section.services-section
     background: #f7f7f7;
 }
 .single-page-section .project-content .project-tags ul li i {
-    color: #a0ce4e;
+    color: #aa4a44;
     margin-right: 10px;
 }
 .single-page-section .project-content .project-tags ul li span {
@@ -1354,7 +1354,7 @@ section.services-section
     color: #333333;
 }
 .blog-section .blog-box .blog-post h2 a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .blog-section .blog-box .blog-post span {
     display: inline-block;
@@ -1385,7 +1385,7 @@ section.services-section
     margin-left: 12px;
 }
 .blog-section .blog-box .blog-post .post-content-text > a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .blog-section .blog-box ul.pagination-list {
     margin: 0;
@@ -1411,7 +1411,7 @@ section.services-section
 }
 .blog-section .blog-box ul.pagination-list li a:hover,
 .blog-section .blog-box ul.pagination-list li a.active {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .blog-section .blog-box .single-post h1 {
     color: #333333;
@@ -1542,7 +1542,7 @@ section.services-section
     .comment-content
     h4
     a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .blog-section
     .blog-box
@@ -1610,7 +1610,7 @@ section.services-section
 }
 .sidebar ul.category-list li a:hover,
 .sidebar ul.archieve-list li a:hover {
-    color: #a0ce4e;
+    color: #aa4a44;
 }
 .sidebar ul.category-list li:last-child,
 .sidebar ul.archieve-list li:last-child {
@@ -1644,7 +1644,7 @@ section.services-section
     border-radius: 3px;
 }
 .sidebar ul.tags-list li a:hover {
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 /*-------------------------------------------------*/
 /* =  services
@@ -1679,11 +1679,11 @@ section.services-section
     margin: 0;
 }
 .services-tabs ul li a:hover {
-    background: #a0ce4e;
+    background: #aa4a44;
     color: #ffffff;
 }
 .services-tabs ul li.active a {
-    background: #a0ce4e;
+    background: #aa4a44;
     color: #ffffff;
 }
 /*-------------------------------------------------*/
@@ -1774,7 +1774,7 @@ section.services-section
 .comment-form input[type="text"]:focus,
 #contact-form textarea:focus,
 .comment-form textarea:focus {
-    border: 1px solid #a0ce4e;
+    border: 1px solid #aa4a44;
 }
 #contact-form textarea,
 .comment-form textarea {
@@ -1785,7 +1785,7 @@ section.services-section
     padding: 12px 30px;
     outline: none;
     border: none;
-    background: #a0ce4e;
+    background: #aa4a44;
     color: #ffffff;
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
@@ -1861,7 +1861,7 @@ footer .footer-widgets .widgets ul.tag-list li a {
     background: #333333;
 }
 footer .footer-widgets .widgets ul.tag-list li a:hover {
-    background: #a0ce4e;
+    background: #aa4a44;
 }
 footer .footer-widgets .widgets ul.flickr-list {
     margin: 0;

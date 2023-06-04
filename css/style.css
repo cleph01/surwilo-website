@@ -787,9 +787,9 @@ section.services-section
     color: #eeeeee;
     font-style: italic;
 }
-.tabs-section .about-box {
+/* .tabs-section .about-box {
     padding-left: 15px;
-}
+} */
 .tabs-section .about-box img {
     width: 100%;
     margin-bottom: 30px;

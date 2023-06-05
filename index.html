@@ -61,7 +61,7 @@
             media="screen"
         />
     </head>
-    <body>
+    <body style="scroll-behavior: smooth !important;">
         <!-- Container -->
         <div id="container">
             <!-- Header
@@ -74,22 +74,22 @@
                     <div class="top-line">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8">
-                                    <ul class="info-list">
+                                <div class="col-md-12">
+                                    <ul class="info-list" style="text-align: center;">
                                         <li>
                                             <i class="fa fa-phone"></i>
                                             Call us:
-                                            <span>1234 - 5678 - 9012</span>
+                                            <a style="color:inherit" href="tel:+12033486966">203-348-6966</a href="tel:203-348-6966">
                                         </li>
                                         <li>
                                             <i class="fa fa-envelope-o"></i>
                                             Email us:
-                                            <span>nunforest@gmail.com</span>
+                                            <a style="color:inherit" href="mailto:service@surwilo.com">service@surwilo.com</a>
                                         </li>
                                         <li>
                                             <i class="fa fa-clock-o"></i>
                                             working time:
-                                            <span>08:00 - 17:00</span>
+                                            <span>08:00 am - 5:00 pm</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -149,7 +149,7 @@
                             <a
                                 class="navbar-brand"
                                 style="font-size: 15px"
-                                href="index.html"
+                                href="#home-section"
                                 ><img
                                     style="width: 25px"
                                     src="images/excavator.png"
@@ -165,13 +165,13 @@
                         >
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
-                                    <a class="active" href="index.html">Home</a>
+                                    <a class="active" href="#home-section">Home</a>
                                 </li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="#about">About</a></li>
                                 <!-- <li><a href="projects.html">Projects</a></li> -->
                                 <li>
-                                    <a href="#">Our Services</a>
-                                    <ul class="drop-down">
+                                    <a href="#services-section">Our Services</a>
+                                    <!-- <ul class="drop-down">
                                         <li>
                                             <a href="drainage-systems.html"
                                                 >Drainage Systems</a
@@ -212,7 +212,7 @@
                                                 >Emergency Services</a
                                             >
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <!-- <li><a href="blog.html">blog</a></li> -->
                                 <li><a href="contact.html">Contact</a></li>
@@ -704,7 +704,7 @@
 
             <!-- services-section 
 			================================================== -->
-            <section class="services-section">
+            <section id="services-section" class="services-section">
                 <div class="container">
                     <div class="services-box">
                         <h1>SERVICES</h1>
@@ -720,14 +720,15 @@
                                     <div class="services-content">
                                         <h2>Drainage Systems</h2>
                                         <p>
-                                            75 years of experience helps us
+                                            Systems failure can be the result of
+                                            clogged path or a breached pipe. We
                                             diagnose the source of the problem
-                                            water quickly, effectively, and
-                                            leave your property as we found it.
+                                            quickly, effectively, and leave your
+                                            property how we found it.
                                         </p>
 
-                                        <a href="services.html/#drainage"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -740,20 +741,13 @@
                                     <div class="services-content">
                                         <h2>Water Services</h2>
                                         <p>
-                                            All utility work on pipes - both new
-                                            installations and repairs of
-                                            existing pipes that have failed. We
-                                            have years of experience upgrading
-                                            existing water services that have
-                                            deteriorated to the point that there
-                                            is a leak or a noticeable loss in
-                                            pressure. We are also very competent
-                                            in installing new services from the
-                                            water main in the road to your
-                                            foundation.
+                                            New installations and repairs, we
+                                            upgrade or reverse any leaks or loss of
+                                            pressure by utilizing the latest
+                                            detection technology.
                                         </p>
-                                        <a href="services.html/#water-services"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -766,13 +760,13 @@
                                     <div class="services-content">
                                         <h2>Sanitary Sewers</h2>
                                         <p>
-                                            Systems are usually a Gravity System
-                                            or Pump Systems. We identify the
-                                            issue, excavate, and repair/install
-                                            a solution
+                                            Whether a Gravity System
+                                            or Pump Systems, we identify
+                                            the problem, excavate, and
+                                            repair/install a solution.
                                         </p>
-                                        <a href="services.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -785,16 +779,15 @@
                                     <div class="services-content">
                                         <h2>Trenching</h2>
                                         <p>
-                                            We provide treching services to bury
-                                            electric, propane, and
+                                            We bury electric, propane, and
                                             communications lines. We also
                                             install backup generators including
                                             pouring the concrete pad and
                                             performing the excavation to and
                                             from your house.
                                         </p>
-                                        <a href="services.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -809,13 +802,17 @@
                                     <div class="services-content">
                                         <h2>Excavation</h2>
                                         <p>
-                                            Aenean sed justo tincidunt,
-                                            vulputate nisi sit amet, rutrum
-                                            ligula. Pellentesque dictum aliquam
-                                            ornare. Sed elit lectus.
+                                            Experienced with all types of
+                                            excavation for any utility of any
+                                            size. We take pride in our level of earth-moving
+                                            and repair art work. We use the premium
+                                            materials and superior mechanical
+                                            compaction to ensure that the patch
+                                            will not be an issue for decades to
+                                            come.
                                         </p>
-                                        <a href="garden.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -828,13 +825,10 @@
                                     <div class="services-content">
                                         <h2>Water Mains</h2>
                                         <p>
-                                            Aenean sed justo tincidunt,
-                                            vulputate nisi sit amet, rutrum
-                                            ligula. Pellentesque dictum aliquam
-                                            ornare. Sed elit lectus.
+                                            Connecting to the municipality's water main for the first time or upgrading an existing service, we handle the whole process from excavation and plumbing to coordinating with the water company to schedule the project. 
                                         </p>
-                                        <a href="buildings.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -847,13 +841,16 @@
                                     <div class="services-content">
                                         <h2>Site Work</h2>
                                         <p>
-                                            Aenean sed justo tincidunt,
-                                            vulputate nisi sit amet, rutrum
-                                            ligula. Pellentesque dictum aliquam
-                                            ornare. Sed elit lectus.
+                                            All phases of site work
+                                            on new and renovation projects. Land preparation,
+                                            foundation excavation, installing
+                                            all underground utilities (sewer, storm drainage, and water pipes) to establishing final
+                                            grades, we work the architect or
+                                            engineer to complete all related
+                                            work.
                                         </p>
-                                        <a href="projecting.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -866,13 +863,23 @@
                                     <div class="services-content">
                                         <h2>Emergency Services</h2>
                                         <p>
-                                            Aenean sed justo tincidunt,
-                                            vulputate nisi sit amet, rutrum
-                                            ligula. Pellentesque dictum aliquam
-                                            ornare. Sed elit lectus.
+                                            24 / 7 Emergency response:
+                                            
+                                            <ul style="font-family:'Montserrat';font-size:12px; color:#777; margin-left:-25px">
+                                                <li>Water Main breaks</li>
+                                                <li>Water
+                                                    Services leaks</li>
+                                                <li>Sanitary Sewer
+                                                    blockages</li>
+                                                <li>Storm Response Equipment:
+                                                    pumps, generators,
+                                                    chainsaws, etc</li>
+                                               
+                                            </ul>
+                                            
                                         </p>
-                                        <a href="projecting.html"
-                                            >Read More
+                                        <a href="tel:+1203-348-6966"
+                                            >On Mobile? Call Us Here
                                             <i class="fa fa-angle-right"></i
                                         ></a>
                                     </div>
@@ -977,67 +984,51 @@
 
             <!-- tabs-section 
 			================================================== -->
-            <section class="tabs-section">
+            <section id="about" class="tabs-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-7">
                             <div class="about-us-box">
                                 <h1>about us and our priorities</h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat.
+                                    We are a family owned and operated business providing Fairfield County, Connecticut with superior contract work since 1955. 
+                                    
+                                </p>
+                                <br />
+                                <p>
+                                    We work on each assignment as if it were our own home and ensure that when our work is complete the site will look even better than when we arrived.
+                                </p>
+                                <br />
+                                <p>
+                                    Surwilo Contracting is fully bonded and insured, certificate provided upon request.
                                 </p>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="about-us-post">
                                             <a href="#"
-                                                ><i class="fa fa-building-o"></i
+                                                ><i class="fa fa-check"></i
                                             ></a>
-                                            <h2>Construction</h2>
-                                            <span>build homes</span>
+                                            <h2>Safety</h2>
+                                            <span>Strict Safety Standards</span>
                                         </div>
                                         <div class="about-us-post">
                                             <a href="#"
                                                 ><i class="fa fa-cogs"></i
                                             ></a>
-                                            <h2>Maintanance</h2>
-                                            <span>energy repair</span>
-                                        </div>
-                                        <div class="about-us-post">
-                                            <a href="#"
-                                                ><i class="fa fa-desktop"></i
-                                            ></a>
                                             <h2>Good Planning</h2>
-                                            <span>architecture</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="about-us-post">
-                                            <a href="#"
-                                                ><i class="fa fa-desktop"></i
-                                            ></a>
-                                            <h2>Good Planning</h2>
-                                            <span>architecture</span>
+                                            <span>Efficient Project Execution</span>
                                         </div>
                                         <div class="about-us-post">
                                             <a href="#"
                                                 ><i class="fa fa-users"></i
                                             ></a>
-                                            <h2>Awesome Stuff</h2>
-                                            <span>1000+ workers</span>
+                                            <h2>Team Work</h2>
+                                            <span>Clear Communication & Coordination</span>
                                         </div>
-                                        <div class="about-us-post">
-                                            <a href="#"
-                                                ><i class="fa fa-building-o"></i
-                                            ></a>
-                                            <h2>Construction</h2>
-                                            <span>build homes</span>
-                                        </div>
+                                        <br />
+                                        
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1045,7 +1036,11 @@
                         <div class="col-md-5">
                             <div class="about-box">
                                 <br />
-                                <img src="upload/others/about.jpg" alt="" />
+                                <img
+                                    style="border-radius: 15px"
+                                    src="upload/others/truck.jpg"
+                                    alt=""
+                                />
                                 <h2>Working Hours</h2>
                                 <p class="first-par">
                                     You can contact or visit us during working
@@ -1204,42 +1199,24 @@
                     <div class="testimonial-box">
                         <ul class="bxslider">
                             <li>
-                                <h2>John Smith</h2>
-                                <span>Construct Chief</span>
+                                <h2>Sean</h2>
+                                <span>Eastchester, NY</span>
                                 <p>
-                                    Donec nec justo eget felis facilisis
-                                    fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.
-                                    Morbi in sem quis dui placerat ornare.
-                                    Pellentesque odio nisi, euismod in, pharetra
-                                    a,ultricies in, diam. Sed arcu. Cras
-                                    consequat.
+                                    I was having ongoing problems with water seeping into my basement. After Surwilo upgraded my drainage system, I now have wall-to-wall carpeting installed!
                                 </p>
                             </li>
                             <li>
-                                <h2>Besim Dauti</h2>
-                                <span>Project Menager</span>
+                                <h2>Lou Loglisci, Myrtle Terrace</h2>
+                                <span>Stamford, CT</span>
                                 <p>
-                                    Donec nec justo eget felis facilisis
-                                    fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.
-                                    Morbi in sem quis dui placerat ornare.
-                                    Pellentesque odio nisi, euismod in, pharetra
-                                    a, ultricies in, diam. Sed arcu. Cras
-                                    consequat.
+                                    Surwillo contracting responded to our problem very quickly and began work within the week. They replaced our drainage system and had all the resources to make sure the project was completed on schedule.
                                 </p>
                             </li>
                             <li>
-                                <h2>Quan Ngyen</h2>
-                                <span>Electricity Engineer</span>
+                                <h2>Mrs. Stahl</h2>
+                                <span>Greenwich, CT</span>
                                 <p>
-                                    Donec nec justo eget felis facilisis
-                                    fermentum. Aliquam porttitor mauris sit amet
-                                    orci. Aenean dignissim pellentesque felis.
-                                    Morbi in sem quis dui placerat ornare.
-                                    Pellentesque odio nisi, euismod in, pharetra
-                                    a, ultricies in, diam. Sed arcu. Cras
-                                    consequat.
+                                    Ed Czescik, President of Surwilo Contracting provides excellent, on time service. He is reliable, responsible and is onsite himself to oversee the project and his associates from beginning to end. Ed is a man of integrity and honesty and he provides dependable, reliable service to each customer.
                                 </p>
                             </li>
                         </ul>
@@ -1300,7 +1277,7 @@
             <!-- footer 
 			================================================== -->
             <footer>
-                <div class="container">
+                <div class="container" style="text-align:center">
                     <!-- <div class="footer-widgets">
                         <div class="row">
                             <div class="col-md-3">
